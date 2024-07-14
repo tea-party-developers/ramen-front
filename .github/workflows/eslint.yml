@@ -1,0 +1,26 @@
+name: eslint
+
+on:
+  push
+
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: 'yarn'
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+      - name: eslint
+        uses: reviewdog/action-eslint@v1
+        with:
+          reporter: github-check
+          eslint_flags: '--no-error-on-unmatched-pattern --ext .js,.ts,.jsx,.tsx .'
