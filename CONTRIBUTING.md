@@ -1,4 +1,4 @@
-# Developing ramen-api
+# Developing ramen-front
 
 ## Development Workflow
 
