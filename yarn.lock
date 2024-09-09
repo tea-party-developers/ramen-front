@@ -2054,9 +2054,9 @@
     ts-dedent "^2.2.0"
 
 "@storybook/addon-links@^8.2.2":
-  version "8.2.2"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.2.2.tgz#b2d64ac9c8623d209a7ccf2e1db9f690484948a6"
-  integrity sha512-eGh7O7SgTJMtnuXC0HlRPOegu1njcJS2cnVqjbzjvjxsPSBhbHpdYMi9Q9E7al/FKuqMUOjIR9YLIlmK1AJaqA==
+  version "8.2.9"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-8.2.9.tgz#9dbdebbbe28644e9c52ad2aad6bf4f0988871613"
+  integrity sha512-RhJzUNdDb7lbliwXb64HMwieIeJ+OQ2Ditue1vmSox6NsSd+pshR+okHpAyoP1+fW+dahNENwAS2Kt2QiI78FA==
   dependencies:
     "@storybook/csf" "0.1.11"
     "@storybook/global" "^5.0.0"
