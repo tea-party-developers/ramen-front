@@ -1517,13 +1517,13 @@
     util-deprecate "^1.0.2"
 
 "@storybook/blocks@^8.2.2":
-  version "8.2.9"
-  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-8.2.9.tgz#3c9018619704cee23c9e69ff263e3c0aaa9a7ccc"
-  integrity sha512-5276q/s/UL8arwftuBXovUNHqYo/HPQFMGXEmjVVAMXUyFjzEAfKj3+xU897J6AuL+7XVZG32WnqA+X6LJMrcQ==
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-8.3.2.tgz#3b4ce0127a683a6f8a6da87410e6c68bc951a4f3"
+  integrity sha512-z6XTg5fC5XT/8vYYtFqVhQtBYw5MkSlkQF5HM1ntxlEesN4tGd14SjFd24nWuoAHq4G5D2D8KNt41IoNdzeD1A==
   dependencies:
-    "@storybook/csf" "0.1.11"
+    "@storybook/csf" "^0.1.11"
     "@storybook/global" "^5.0.0"
-    "@storybook/icons" "^1.2.5"
+    "@storybook/icons" "^1.2.10"
     "@types/lodash" "^4.14.167"
     color-convert "^2.0.1"
     dequal "^2.0.2"
@@ -1632,10 +1632,10 @@
   resolved "https://registry.yarnpkg.com/@storybook/global/-/global-5.0.0.tgz#b793d34b94f572c1d7d9e0f44fac4e0dbc9572ed"
   integrity sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==
 
-"@storybook/icons@^1.2.5":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@storybook/icons/-/icons-1.2.9.tgz#bb4a51a79e186b62e2dd0e04928b8617ac573838"
-  integrity sha512-cOmylsz25SYXaJL/gvTk/dl3pyk7yBFRfeXTsHvTA3dfhoU/LWSq0NKL9nM7WBasJyn6XPSGnLS4RtKXLw5EUg==
+"@storybook/icons@^1.2.10", "@storybook/icons@^1.2.5":
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@storybook/icons/-/icons-1.2.12.tgz#3e4c939113b67df7ab17b78f805dbb57f4acf0db"
+  integrity sha512-UxgyK5W3/UV4VrI3dl6ajGfHM4aOqMAkFLWe2KibeQudLf6NJpDrDMSHwZj+3iKC4jFU7dkKbbtH2h/al4sW3Q==
 
 "@storybook/instrumenter@8.2.9":
   version "8.2.9"
